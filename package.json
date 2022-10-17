@@ -1,7 +1,7 @@
 {
-  "name": "food-delivery-api",
+  "name": "test-api",
   "version": "1.0.0",
-  "description": "Nodejs API with Express,MySQL and Sequelize ORM",
+  "description": "Nodejs API with Express and Redis",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,8 +11,7 @@
   "keywords": [
     "nodejs",
     "express",
-    "sequelize",
-    "MySQL"
+    "redis"
   ],
   "author": "Aish",
   "license": "ISC",
@@ -22,6 +21,7 @@
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
     "node-fetch": "^3.2.10",
+    "redis": "^4.3.1",
     "sequelize": "^6.24.0"
   },
   "devDependencies": {

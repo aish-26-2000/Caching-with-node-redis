@@ -1,14 +1,9 @@
-# Third-party-API-calling-from-Node
+# node-redis-sample-API
 
-## node-fetch
+`node-redis` is a modern, high performance Redis client for Node.js.
 
-> Description : `node-fetch` is a lightweight module that enables us to use the `fetch()` function in NodeJS.
+## Installation
 
-> Installation : `npm install node-fetch`
+To use Redis with Node.js, you need to install a Node.js Redis client.
 
-## API Endpoints
-
-| APIs         | VERB | Parameters | Description            |
-| ------------ | ---- | ---------- | ---------------------- |
-| /api/v1/home | GET  | None       | Home Page              |
-| /api/v1/call | GET  | None       | Call a third-party API |
+Install node-redis : `npm install redis`
