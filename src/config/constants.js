@@ -13,6 +13,7 @@ module.exports = {
     REDIS : {
         username : process.env.REDIS_USER,
         password :  process.env.REDIS_PASSWORD,
-        end_point : process.env.REDIS_END_POINT
+        end_point : process.env.REDIS_END_POINT,
+        redis_port :  process.env.REDIS_PORT
     }
 };

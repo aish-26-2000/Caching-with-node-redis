@@ -3,18 +3,9 @@ require('dotenv').config();
 //require('dotenv').config({path : './config.env'});
 const http = require('http');
 const { CONSTANTS } = require('../src/config');
-const app = require('../app');
+const app = require('../caching');
 const redis = require('redis');
 
-//redis connection
-const client = redis.createClient({
-    //redis connection string - redis://USERNAME:PASSWORD@ENDPOINT:PORT
-    url : `redis://${CONSTANTS.REDIS.username}:${CONSTANTS.REDIS.password}@${CONSTANTS.REDIS.end_point}`
-});
-client.on('connect',function(){
-    console.log('Redis Connection Successful.')
-});
-client.connect();
 
 /**
  * Normalize a port into a number, string, or false.
